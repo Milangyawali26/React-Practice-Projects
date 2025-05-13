@@ -1,0 +1,17 @@
+import React from 'react'
+
+import { ErrorMessage, useField } from 'formik';
+
+
+const TextField = (props) => {
+    const [ field, meta]=useField(props.name);
+  return (
+    <div>
+      <input type="text" {...field}{...props} />
+      {meta.error}
+      <br />
+    </div>
+  )
+}
+
+export default TextField

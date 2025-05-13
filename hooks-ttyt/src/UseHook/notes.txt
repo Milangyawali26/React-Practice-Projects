@@ -1,0 +1,14 @@
+use is react api that lets you read the value of a resources like a promise or context.
+
+const value =use(resources);
+
+usage 
+reading context with use 
+when a context is passed to use, it works similarly to useContext. 
+while useContext must be called at the top level of you component ,
+ use can be called inside conditional like if and loops like for. 
+
+ use is preferend over useContext because it is more flexible.
+
+
+ instead of 'useContext' we should only use  "use"

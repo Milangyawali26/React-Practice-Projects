@@ -1,0 +1,11 @@
+use reducer  is the alternative for use state hook 
+it returns an array containing the current state and a dispatch function.
+
+in complex use reducer is more often used 
+
+const [state,dispatch] = useReducer(reducer,initialState);
+
+reducer function = a function that takes the current state and an action as arguments and returns a new state. 
+
+dispatch function is used to send actions to the reducer , which in turns updates the state based on the action's type and any associated data (payload).
+

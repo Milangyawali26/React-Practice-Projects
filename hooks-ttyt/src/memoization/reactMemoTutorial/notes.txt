@@ -1,0 +1,34 @@
+react memo is function used for memoization of functional component 
+
+it is used to chack is there is change or not is props of component
+
+if the props of memoized componet have not changed. 
+ract skips the rendering for that compononet , using the chached result instead 
+
+// react.memo() is a higher-order component tat we use to wrap 
+component that we do dont want to rerender unless props with in them changed
+
+ 
+
+//  const memoizedValue =useMemo( ()=>{
+       // your consumption logic here
+       return computed value
+},[dependencies]);
+
+
+// same as useEffect syntax 
+
+
+
+useMemo is a reactHook used for memoization .
+memoization is a technique to optimize performance by caching the results 
+of expensive function calls.
+
+use it when you want to prevent unnecessary re-execution of a function on every render .
+useful for optimizing performance in situation where calculations or operations are computationally expensive.
+
+overusing useMemo might lead to unnecessry complexity and impact readabilty.
+
+
+
+
